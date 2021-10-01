@@ -1,0 +1,57 @@
+{
+	"app.welcome": "Bienvenido, {name}",
+
+	"menu.home": "Inicio",
+	"menu.explore": "Explorar",
+	"menu.profile": "Perfil",
+
+	"profile.title": "Perfil",
+	"explore.title": "Explorar",
+
+	"login.email" : "Dirección de correo",
+	"login.password" : "Contraseña",
+	"login.createAccount": "Crear cuenta",
+	"login.forgotPassword" : "Olvidaste tu contraseña ?",
+	"login.rememberMe" : "Recordar este dispositivo",
+	"login.signIn" : "Conectarse",
+
+	"register.register": "Registrarse",
+	"register.participant": "Participante",
+	"register.company": "Compañia",
+	"register.student": "Estudiante",
+	"register.senior": "Señor(+65)",
+	"register.professor": "Profesor",
+	"register.documentType": "Tipo de documento",
+	"register.documentNumber": "Numero de documento",
+	"register.college": "Universidad",
+	"register.collegeCard": "Tarjeta universitaria",
+	"register.documentPhoto": "Foto del documento de identidad",
+	"register.name": "Nombres",
+	"register.lname": "Apellidos",
+	"register.companyName": "Nombre de compañia",
+	"register.job" : "Trabajo",
+	"register.pNumber": "Numero telefonico",
+	"register.email": "Dirección de correo",
+	"register.cEmail": "Confirma tu dirección de correo",
+	"register.password": "Contraseña",
+	"register.acceptTerms": "Acepto los terminos y condiciones",
+	"register.iWant": "Quiero recibir noticias de Agromin",
+	"register.aAccount": "Ya tienes una cuenta?",
+	"register.signIn": "Conectate",
+	"register.signUp": "Registrate",
+	"register.country": "Pais",
+	"register.uploadPhoto": "Subir foto",
+
+	"forgotPassword.fpass": "Olvidaste tu contraseña?",
+	"forgotPassword.email": "Dirección de correo electrónico",
+	"forgotPassword.rPassword": "Resetear contraseña",
+	"forgotPassword.bLogin": "Volver a la autenticación",
+	"forgotPassword.textDescription": "Ingrese la dirección de correo electrónico asociada con su cuenta y le enviaremos un enlace para restablecer su contraseña.",
+
+	"drawer.settings": "Configuración",
+	"drawer.language": "Idioma",
+	"drawer.themeoption": "Opción de tema",
+	"drawer.themedirection": "Dirección de tema",
+	"drawer.themecolor": "Color de tema"
+
+}

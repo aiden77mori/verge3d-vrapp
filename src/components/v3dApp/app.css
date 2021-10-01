@@ -1,0 +1,432 @@
+/* __V3D_TEMPLATE__ - template-based file; delete this line to prevent this file from being updated */
+
+#v3d-container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.fullscreen-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  background-size: 100% 100%;
+  display: none;
+  z-index: 1;
+}
+
+.fullscreen-open {
+  background-image: url("media/fullscreen_open.svg");
+}
+
+.fullscreen-close {
+  background-image: url("media/fullscreen_close.svg");
+}
+
+/* removes tap blinking on ios devices */
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+#preloader_screen {
+  width: 100%;
+  height: 100vh;
+  background: #e3edf7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+}
+
+.skill {
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+
+.outer {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+
+.inner {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset 4px 4px 6px -1px rgba(255, 255, 255, 0.7),
+    -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+    0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+}
+
+.outer,
+.inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#percentage {
+  font-weight: 600;
+  color: #555;
+}
+
+.preloader_circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#circle {
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 20px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  transition: stroke-dashoffset 0.1s linear;
+}
+
+.buttons {
+  width: 50px;
+  height: 50px;
+
+  background: #fff;
+  border: 2px solid #0486c9;
+  border-radius: 5px;
+  box-shadow: 0px 10px 10px #000000ff;
+  margin: 10px;
+  transition: background 1s ease-in-out;
+}
+
+.containerColorPicker {
+  width: 5%;
+}
+
+.buttons svg {
+  fill: #0486c9;
+  transition: fill 1s ease-in-out;
+}
+.buttons img {
+  width: 100%;
+}
+
+.active {
+  background: #0486c9;
+}
+.active svg {
+  fill: #fff;
+}
+
+.containerImage {
+  max-width: 400px;
+  margin: 0;
+}
+.margin_map {
+  position: relative;
+  width: 55vh;
+  height: 55vh;
+  /*width: 22%;
+  height: 55vh;*/
+
+  top: 0.5%;
+  left: 0.5%;
+  background-image: url(../mapa.jpg);
+  background-repeat: no-repeat;
+  background-origin: "center";
+
+  background-size: cover;
+
+  border: 2px solid white;
+  border-radius: 20px;
+  opacity: 0.8;
+}
+
+.ButtonCss {
+  cursor: "pointer";
+  border-radius: 100%;
+  border-color: #555;
+  border: 2px solid #3f413f; /* Green */
+}
+
+.stileIMG {
+  background-color: #2726269d;
+  position: absolute;
+  border-color: #555;
+  border: 2px solid #3f413f; /* Green */
+  width: 20%;
+
+  height: 100%;
+}
+
+.borderText {
+  position: absolute;
+  left: 0%;
+  top: 50%;
+}
+
+.buttonClose {
+  position: absolute;
+  left: 83%;
+  top: 6%;
+  width: 6%;
+  height: 6%;
+  border-radius: "10%";
+  background-color: "#2726269d";
+  border-color: "#555";
+  border: "2px solid #3f413f";
+}
+
+.buttonCloseIMG {
+  position: absolute;
+  left: 72%;
+  top: 6%;
+  width: 6%;
+  height: 6%;
+  border-radius: "10%";
+  background-color: "#2726269d";
+  border-color: "#555";
+  border: "2px solid #3f413f";
+}
+
+.BG_xls {
+  position: relative;
+  left: 25%;
+  top: 25%;
+  width: 45%;
+  height: 40%;
+  border-radius: "10%";
+  background-color: #353535;
+  opacity: .7;
+  border-color: #008cff;
+  border: 2px solid #ffffff;
+  border-radius: 3%;
+}
+
+.buttonCloseSR {
+  position: absolute;
+  left: 74%;
+  top: 2%;
+  width: 6%;
+  height: 6%;
+  border-radius: "10%";
+  background-color: "#2726269d";
+  border-color: "#555";
+  border: "2px solid #3f413f";
+}
+.buttonClosexls {
+  position: absolute;
+  left: 66%;
+  top: 23%;
+  width: 6%;
+  height: 6%;
+  border-radius: "10%";
+  background-color: "#2726269d";
+  border-color: "#555";
+  border: "2px solid #3f413f";
+}
+.xlsx_img1{
+  position: absolute;
+  left: 15%;
+  top: 10%;
+  width: 15%;
+  height: 15%;
+}
+.xlsx_img2{
+  position: absolute;
+  left: 65%;
+  top: 10%;
+  width: 15%;
+  height: 15%;
+}
+
+
+.buttonClosePDF {
+  position: absolute;
+  left: 79%;
+  top: 1%;
+  width: 6%;
+  height: 6%;
+  border-radius: "10%";
+  background-color: "#2726269d";
+  border-color: "#555";
+  border: "2px solid #3f413f";
+}
+
+.buttonCalendy {
+  left: 50%;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+}
+.borderButton {
+  border-radius: 10%;
+  background-color: rgb(255, 255, 255);
+  border-color: #555;
+  border: 2px solid #3f413f;
+  width: 20%;
+}
+
+.ButtonPosition_1 {
+  cursor: "pointer";
+  /* border-radius: 10%;
+  border-color: #555;
+  border: 2px solid #3f413f; */
+  position: absolute;
+  top: 20%;
+  left: 7%;
+}
+
+.ButtonPosition_2 {
+  cursor: "pointer";
+  /* border-radius: 10%;
+  border-color: #555;
+  border: 2px solid #3f413f;  */
+  position: absolute;
+  top: 35%;
+  left: 7%;
+}
+.ButtonPosition_3 {
+  cursor: "pointer";
+  /* border-radius: 10%;
+  border-color: #555;
+  border: 2px solid #3f413f;  */
+  position: absolute;
+  top: 50%;
+  left: 7%;
+}
+.ButtonPosition_4 {
+  cursor: "pointer";
+  /* border-radius: 10%;
+  border-color: #555;
+  border: 2px solid #3f413f; */
+  position: absolute;
+  top: 65%;
+  left: 7%;
+}
+.marginInside_gps1 {
+  position: absolute;
+  width: 12%;
+  top: 15%;
+  left: 84%;
+}
+
+.marginInside_gps2 {
+  position: absolute;
+  width: 12%;
+  top: 30%;
+  left: 63.5%;
+}
+
+.marginInside_gps3 {
+  position: absolute;
+  width: 12%;
+  top: 40.5%;
+  left: 63.5%;
+}
+
+.marginInside_gps4 {
+  position: absolute;
+  width: 12%;
+  top: 57%;
+  left: 63.5%;
+}
+
+.marginInside_gps5 {
+  position: absolute;
+  width: 12%;
+  top: 73%;
+  left: 61%;
+}
+
+.marginInside_gps6 {
+  position: absolute;
+  width: 12%;
+  top: 81.1%;
+  left: 49.5%;
+}
+
+.marginInside_gps7 {
+  position: absolute;
+  width: 12%;
+  top: 65%;
+  left: 24%;
+}
+
+.marginInside_gps8 {
+  position: absolute;
+  width: 12%;
+  top: 76%;
+  left: 5%;
+}
+
+.ButtonCssPlayer {
+  border-radius: 100%;
+  border: 2px solid #008cff; /* Green */
+}
+
+.h4 {
+  text-align: center;
+}
+.BackGroundWhite {
+  background-color: #353535cb;
+  position: absolute;
+  max-height: 100%;
+  height: 100%;
+  
+  width: 100%;
+  top: 0%;
+  text-align: center;
+}
+
+.pdfDrive {
+  max-height: 99%;
+  height: 100%;
+  width: 55%;
+}
+
+.pdfDrive {
+  max-height: 99%;
+  height: 100%;
+  width: 55%;
+}
+
+iframe,
+object {
+  height: 99%;
+  width: 60%;
+}
+
+/* For pdf */
+.react-pdf__Page {
+  margin-top: 0%;
+}
+.react-pdf__Page__textContent {
+  border: 1px solid darkgrey;
+  box-shadow: 5px 5px 5px 1px #ccc;
+  border-radius: 15px;
+}
+
+.react-pdf__Page__annotations.annotationLayer {
+  padding: 0px;
+}
+
+.react-pdf__Page__canvas {
+  margin: 0 auto;
+}
+
+/* For all pages */
+.all-page-container {
+  opacity: 1;
+  height: 100%;
+  max-height: 100%;
+
+  overflow: auto;
+}

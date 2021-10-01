@@ -1,0 +1,57 @@
+{
+	"app.welcome": "Welcome, {name}",
+
+	"menu.home": "Home",
+	"menu.explore": "Explore",
+	"menu.profile": "Profile",
+
+	"profile.title": "Profile",
+	"explore.title": "Explore",
+
+	"login.email" : "Email Adress",
+	"login.password" : "Password",
+	"login.createAccount": "Create an account",
+	"login.forgotPassword" : "Forgot Password ?",
+	"login.rememberMe" : "Remember this Device",
+	"login.signIn" : "Sign In",
+
+	"register.register": "Register",
+	"register.participant": "Participant",
+	"register.company": "Company",
+	"register.student": "Student",
+	"register.senior": "Senior(+65)",
+	"register.professor": "Professor",
+	"register.documentType": "Document Type",
+	"register.documentNumber": "Document Number",
+	"register.college": "College",
+	"register.collegeCard": "College Card",
+	"register.documentPhoto": "Document Photo",
+	"register.name": "Name",
+	"register.lname": "Last name",
+	"register.companyName": "Company Name",
+	"register.job" : "Job",
+	"register.pNumber": "Phone Number",
+	"register.email": "Email Adress",
+	"register.cEmail": "Confirm your Email",
+	"register.password": "Password",
+	"register.acceptTerms": "Accept Terms and conditions",
+	"register.iWant": "I want to get most our of Agromin",
+	"register.aAccount": "Already have an Account?",
+	"register.signIn": "Sign In",
+	"register.signUp": "Sign Up",
+	"register.country": "Country",
+	"register.uploadPhoto": "Upload Photo",
+
+	"forgotPassword.fpass": "Forgot Password?",
+	"forgotPassword.email": "Email Adress",
+	"forgotPassword.rPassword": "Reset Password",
+	"forgotPassword.bLogin": "Back to Login",
+	"forgotPassword.textDescription": "Please enter the email address associated with your account and We will email you a link to reset your password.",
+
+	"drawer.settings": "Settings",
+	"drawer.language": "Language",
+	"drawer.themeoption": "Theme option",
+	"drawer.themedirection": "Theme direction",
+	"drawer.themecolor": "Theme color"
+
+}
