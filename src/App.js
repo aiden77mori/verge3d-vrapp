@@ -7,6 +7,7 @@ import ThemeSettings from "./layouts/full-layout/customizer/settings";
 import { useSelector } from "react-redux";
 import Themeroutes from "./routes/Router";
 import "react-perfect-scrollbar/dist/css/styles.css";
+
 const App = () => {
   const routing = useRoutes(Themeroutes);
   const theme = ThemeSettings();
