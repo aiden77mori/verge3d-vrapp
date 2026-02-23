@@ -15,7 +15,7 @@ import Paper from "@material-ui/core/Paper";
 import IconButton from "@material-ui/core/IconButton";
 import Tooltip from "@material-ui/core/Tooltip";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
-import { visuallyHidden } from "@material-ui/utils";
+// import visuallyHidden from "@material-ui/utils/visuallyHidden";
 
 import FeatherIcon from "feather-icons-react";
 
@@ -327,7 +327,7 @@ function EnhancedTableHead(props) {
                 {headCell.label}
               </Typography>
               {orderBy === headCell.id ? (
-                <Box component="span" sx={visuallyHidden}>
+                <Box component="span" >
                   {order === "desc" ? "sorted descending" : "sorted ascending"}
                 </Box>
               ) : null}
